@@ -1,38 +1,3 @@
-var docTemp = {
-    voc: 'play',
-    uk: {
-        POSes: [
-            {
-                pos: 'verb',
-                grammer: 'adjective [ after verb ], adverb',
-                prons: [
-                    {
-                        region: 'uk',
-                        ipa: 'əˈləʊn',
-                        mp3: '',
-                        ogg: 'https://dictionary.cambridge.org/media/english/uk_pron_ogg/u/uka/ukall/ukally_013.ogg'
-                    }
-                ],
-                defines: [
-                    {
-                        info: 'B1 [ T ]',
-                        define: 'to compete against a person or team in a game:',
-                        examps: [
-                            ' Do you want to play cards/football (with us)?'
-                        ]
-                        
-                    }
-                ]
-            }
-        ]
-    },
-    us: {
-    },
-    business: {
-    },
-    examples: []
-}
-
 var baseURL = 'https://dictionary.cambridge.org'
 var doc = {
     voc: '',
