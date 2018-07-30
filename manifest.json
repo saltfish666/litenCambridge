@@ -1,0 +1,12 @@
+{
+	"name": "litenCambridge",
+    "version": "0.1",
+    "description":"每当查询单词的时候，将翻译结构传到后台",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://dictionary.cambridge.org/dictionary/english/*"],
+            "js": ["./listen.js"]
+        }
+    ]
+}
