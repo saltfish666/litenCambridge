@@ -1,3 +1,5 @@
+var baseURL = 'https://dictionary.cambridge.org'
+
 export default function getContentFromDiv(content){
     let contentObj = {}
     contentObj.POSes = []
@@ -25,14 +27,12 @@ export default function getContentFromDiv(content){
         let def_blocks = POS.getElementsByClassName("def-block")
         for( let def_block of def_blocks) {
             let defineObj = {}
-            console.log(def_block)
-            ddd = def_block
             defineObj.info = def_block.getElementsByClassName('def-info')[0].innerText // B1 [ T ]
             defineObj.define = def_block.getElementsByClassName('def')[0].innerText // to compete against a person or team in a game:
                 
             defineObj.examps = []
             let examps = def_block.getElementsByClassName('examp')
-            for (examp of examps) {
+            for ( let examp of examps) {
                 defineObj.examps.push( examp.innerText) // Do you want to play cards/football (with us)?
             }
             POSobj.defines.push( defineObj)

@@ -1,3 +1,5 @@
+var baseURL = 'https://dictionary.cambridge.org'
+
 export default function getContentFromBusinessDiv( content){
     let contentObj = {}
     contentObj.POSes = []

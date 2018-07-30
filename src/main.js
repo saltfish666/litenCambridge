@@ -1,7 +1,6 @@
 import getContentFromDiv from './getContentFromDiv.js'
 import getContentFromBusinessDiv from './getContentFromBusinessDiv.js'
 
-var baseURL = 'https://dictionary.cambridge.org'
 var doc = {
     voc: '',
     uk: {},

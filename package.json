@@ -6,7 +6,8 @@
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "pack": "webpack --config ./wp.js"
+    "pack": "webpack --config ./wp.js",
+    "watch": "webpack --config ./wp.js --watch"
   },
   "config": {
     "commitizen": {
