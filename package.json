@@ -2,10 +2,11 @@
   "dependencies": {},
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
-    "webpack": "^4.16.3"
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pack": "webpack --config ./wp.js"
   },
   "config": {
     "commitizen": {
